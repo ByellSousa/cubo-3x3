@@ -1,0 +1,60 @@
+# Reference binaries and generated Android packages
+*.apk
+*.aab
+*.apks
+*.xapk
+*.idsig
+
+# Reverse-engineering and analysis outputs
+analysis/
+tools/__pycache__/
+
+# Android / Gradle
+.gradle/
+.kotlin/
+.idea/
+local.properties
+build/
+**/build/
+captures/
+*.iml
+decompiled/
+jadx-output/
+apktool-output/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+
+# Android / IDE
+.gradle/
+.idea/
+local.properties
+*.iml
+captures/
+.cxx/
+
+# Secrets and signing material
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.dpapi
+google-services.json
+service-account*.json
+credentials*
+secrets*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp

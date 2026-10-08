@@ -1,0 +1,52 @@
+package com.gabs.cubo3x3.data
+
+data class F2LAlgorithmCase(
+    val number: Int,
+    val notation: String,
+)
+
+object F2LAlgorithms {
+    val all: List<F2LAlgorithmCase> = listOf(
+        F2LAlgorithmCase(1, "R U R'"),
+        F2LAlgorithmCase(2, "F' U' F"),
+        F2LAlgorithmCase(3, "U' F' U F"),
+        F2LAlgorithmCase(4, "U R U' R'"),
+        F2LAlgorithmCase(5, "U R U' R' U' F' U F"),
+        F2LAlgorithmCase(6, "U' F' U F U R U' R'"),
+        F2LAlgorithmCase(7, "F' U F U' F' U F"),
+        F2LAlgorithmCase(8, "R U R' U' R U R'"),
+        F2LAlgorithmCase(9, "R U' R' U R U' R'"),
+        F2LAlgorithmCase(10, "F' U' F U F' U' F"),
+        F2LAlgorithmCase(11, "R U R' U' R U R' U' R U R'"),
+        F2LAlgorithmCase(12, "R U' R' d R' U R"),
+        F2LAlgorithmCase(13, "U F' U F U F' U2 F"),
+        F2LAlgorithmCase(14, "U F' U' F d' F U F'"),
+        F2LAlgorithmCase(15, "U' R U' R' U' R U2 R'"),
+        F2LAlgorithmCase(16, "U' R U R' d R' U' R"),
+        F2LAlgorithmCase(17, "R U' R' U d R' U' R"),
+        F2LAlgorithmCase(18, "F' U F U' d' F U F'"),
+        F2LAlgorithmCase(19, "U F' U2 F U F' U2 F"),
+        F2LAlgorithmCase(20, "U' R U2 R' U' R U2 R'"),
+        F2LAlgorithmCase(21, "U F' U' F U F' U2 F"),
+        F2LAlgorithmCase(22, "U' R U R' U' R U2 R'"),
+        F2LAlgorithmCase(23, "U' R U' R' U R U R'"),
+        F2LAlgorithmCase(24, "U F' U F U' F' U' F"),
+        F2LAlgorithmCase(25, "U' R U R' U R U R'"),
+        F2LAlgorithmCase(26, "U F' U' F U' F' U' F"),
+        F2LAlgorithmCase(27, "U F' U2 F U' R U R'"),
+        F2LAlgorithmCase(28, "U' R U2 R' U F' U' F"),
+        F2LAlgorithmCase(29, "R U R' U' U' R U R' U' R U R'"),
+        F2LAlgorithmCase(30, "y' R' U' R U U R' U' R U R' U' R"),
+        F2LAlgorithmCase(31, "U2 R U R' U R U' R'"),
+        F2LAlgorithmCase(32, "U2 F' U' F U' F' U F"),
+        F2LAlgorithmCase(33, "U R U2 R' U R U' R'"),
+        F2LAlgorithmCase(34, "U' F' U2 F U' F' U F"),
+        F2LAlgorithmCase(35, "R U2 R' U' R U R'"),
+        F2LAlgorithmCase(36, "F' U2 F U F' U' F"),
+        F2LAlgorithmCase(37, "R U' R' d R' U2 R U R' U2 R"),
+        F2LAlgorithmCase(38, "R U' R' U R U2 R' U R U' R'"),
+        F2LAlgorithmCase(39, "R U' R' U' R U R' U' R U2 R'"),
+        F2LAlgorithmCase(40, "R U R' U' R U' R' U d R' U' R"),
+        F2LAlgorithmCase(41, "R U' R' d R' U' R U' R' U' R"),
+    )
+}
