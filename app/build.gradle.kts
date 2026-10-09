@@ -17,8 +17,8 @@ android {
         applicationId = "com.gabs.cubo3x3"
         minSdk = 26
         targetSdk = 36
-        versionCode = 38
-        versionName = "1.0.0-rc29"
+        versionCode = 39
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
